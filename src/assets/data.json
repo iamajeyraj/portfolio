@@ -1,0 +1,86 @@
+{
+  "summary": "Experienced Senior Software Developer with 8 years of expertise in gaming and software development, adept in C#, Unity3D, ASP.NET Core, and cloud technologies. Demonstrated success in optimizing performance, automating processes, and delivering scalable solutions. Proven ability to lead teams and drive projects from conception to deployment, with a strong commitment to continuous learning and technological advancement.",
+  "skills": {
+    "programming": "C#, SQL, swift",
+    "software": "Unity3d, VS Code, XCode",
+    "frameworks": "ASP .NET 6+ Web API, MVC, Entity framework, React, Typescript, Bootstrap",
+    "database": "Microsoft SQL server 16+, PostgreSQL, SQLite, Azure Cloud Services",
+    "designPatterns": "Dependency Injection, Observables, MVVM, MVC, Builders and factory",
+    "productivityTools": "Addressables/AssetBundle, Uni-Rx, StrangeIoC, Zenject, Photon, XR-Interaction toolkit, Docker",
+    "extra": "Live-Ops, Game Play, Optimization, Tools, Native APIs, Services, CMS backend, Unit Tests, Git, CI/CD, SQLite, REST, Jenkins"
+  },
+  "professionalExperience": [
+    {
+      "jobTitle": "Senior Software Developer",
+      "companyName": "Cyber Legends Inc - Ontario, CA",
+      "duration": "Jun 2023 – Apr 2024",
+      "productName": "2D Open World Game & Framework Engine (WebGL|Android|iOS):",
+      "projectDescription": [
+        "Developed 2D open world game with economy, quests engine, NPC AI, character customizations, microservices, runtime asset management, user session management, CMS backend, database and optimizing rendering pipeline, memory cache, and build size resulting in 40% perf gain.",
+        "Automated end-to-end build process of asset bundles by writing shell scripts to update the resource pool without having to update the application saving 60% of time spent on deployments using Jenkins CI/CD and services that adapt to staging and production environment variables.",
+        "Implemented CMS backend using ASP.Net core, connect to MS-SQL DB for CRUD ops, created REST APIs as per client needs, created android proxy libs and iOS extern implementation establishing a bridge between Android and iOS platform to access native APIs and 3rd party SDKs.",
+        "Architected, designed, and led development of mini game frameworks using Editor Tools for design/art team to build games with zero coding by serializing and customizing unity APIs, tweens, creating a disparate game life-cycle powering communication using events and delegates."
+      ]
+    },
+    {
+      "jobTitle": "Unity developer (Contract)",
+      "companyName": "Red Nucleus – Ontario, CA",
+      "duration": "Mar 2023 – Jun 2023",
+      "productName": "Eli-Lilly Drug Showcase & Interactive Presentation (Windows):",
+      "projectDescription": [
+        "Orchestrated an interactive 3d simulation of a real-world medical scenario using Unity engine that was presented in an FDA congress meeting for drug approval, protagonist is interactable via Kinect motion controller channeling cinematic gameplay experience via post-processing effects.",
+        "Deployed path navigation using Unity NavMesh AI agent algorithm which uses A* algorithm based on Dijkstra’s technique to find the shortest path between the nodes, well documented tech design and character state machine, level setup, props, lighting, presentations, and optimizations."
+      ]
+    },
+    {
+      "jobTitle": "Senior Software Engineer",
+      "companyName": "BYJU’S – Bangalore, India",
+      "duration": "Feb 2017 – Mar 2023",
+      "productName": "Disney+ Byju’s Early Learn COPPA (Android|iOS|FireOS):",
+      "projectDescription": [
+        "Delivered a supercharged, gamified and highly scalable educational application by creating a sophisticated architecture incorporating MVCS Dependency Injection using Strange IoC, Observers for responsive UI design for async, concurrency, multi-threading, and distributed tasks.",
+        "Constructed services abstract, decoupled and modular services like network, subscriptions, permissions, localization, user-profile, and session management, DRM ensuring scalability, reusability, overriding for each platform and adapting to staging and production environments.",
+        "Promoted as a Senior software engineer and led a team of junior engineers to handle the entire north America region deployments handling code reviews, managing team resources, tech design and spec to product implementation, task timeline analysis and supporting junior developers.",
+        "Experienced with a full life cycle of software development- SDLC: use cases, requirements, high-level design, low-level design, implementation and writing unit test cases and adhering to SOLID principles, extremely data-driven and avoiding concrete dependency using abstraction layers. "
+      ]
+    },
+    {
+      "jobTitle": "Unity Developer",
+      "companyName": "VGMinds TechStudios Pvt.Ltd",
+      "duration": "Sep 2015 – Feb 2017",
+      "productName": "Kidzooly (Android|iOS):",
+      "projectDescription": [
+        "Developed multiple COPPA complaint KIDS SAFE educational applications and casual games using Unity engine, creating gameplay experience and features like in-app purchases, parental control, rewards system, ads, video player and deployed in Android, iOS, FireOS.",
+        "Learned optimisation techniques like object pooling, image nine slicing, sprite atlases, LODs, occlusions, model optimisation and efficient usage GC like avoiding temporary allocations every frame, unused references, string mutations and endorsing value types across application.",
+        "Gained insights into 3d model generation pipeline and learned to optimize the models by collaborating with 3d Art team as per project needs."
+      ]
+    }
+  ],
+  "personalProjects": [
+    {
+      "projectName": "Bookstore Application(.Net Core 6 MVC):",
+      "projectDescription": [
+        "Developed scalable e-commerce web application using ASP.NET Core 7 MVC application, MS SQL Server for database operations and Entity framework ORM incorporating responsive design principles for optimal user experience across devices.",
+        "Engineered a responsive front-end UI with jQuery and Bootstrap classes, Ajax, HTML, and CSS, seamlessly integrating JSON paradigms",
+        "Integrated third-party payment gateway Stripe API for secure payment within the session and Crafted dynamic Webforms, Pages, Layouts, and view components to deliver a data-driven business solution, ensuring optimal user experience."
+      ]
+    },
+    {
+      "projectName": "Okinawa Motors e-bike Simulation - iPad",
+      "projectDescription": [
+        "A High fidelity simulation application for Japanese electric scooter maker ‘Okinawa Motors’ showcasing new models describing all the scooter's features with post processing effects.",
+        "Ad hoc distribution to entire Tamil Nadu Okinawa dealers on the iPads and Macs for the showrooms"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "courseName": "Computer Science and Engineering",
+      "collegeName": "Anna University, Chennai, IND",
+      "duration": "Aug 2011 - May 2015",
+      "courseDescription": [
+        "Bachelor of Science in Computer Science and Engineering, Anna University, India."
+      ]
+    }
+  ]
+}
