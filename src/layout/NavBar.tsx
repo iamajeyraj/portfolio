@@ -33,7 +33,6 @@ export default function NavBar(cards: Props) {
                         {cards.certification && <Nav.Link href="#home" onClick={() => HandleClick(cards.certification)} className="text-white pt-2"> Certifications </Nav.Link>}
                     </div>
                     <Nav.Link href="#home" onClick={() => HandleClick(cards.educationCard)} className="text-white pt-2"> Education </Nav.Link>
-                    <Nav.Link href="#home" className="text-white pt-2 content-end" style={{ display: 'flex', justifyContent: 'left' }}> Contact me </Nav.Link>
                 </Nav>
             </Container>
         </Navbar>
