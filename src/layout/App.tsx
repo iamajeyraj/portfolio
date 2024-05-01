@@ -1,6 +1,6 @@
-import { Fragment, useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import './styles.css'
-import { Col, Container, Navbar, Row } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
 import NavBar from './NavBar'
 import Skills from '../segments/Skills'
 import jsonData from '../assets/data.json';
@@ -24,7 +24,6 @@ function App() {
   const summary = useRef<HTMLDivElement>(null);
   const personalProject = useRef<HTMLDivElement>(null);
   const displayEducation = useRef<HTMLDivElement>(null);
-  const certification = useRef<HTMLDivElement>(null);
 
   const myStyle = {
     backgroundImage: `url(${bg})`,

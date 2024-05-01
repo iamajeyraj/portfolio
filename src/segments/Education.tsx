@@ -1,6 +1,5 @@
-import React from "react";
 import { Education } from "../models/Portfolio";
-import { Card, CardBody, CardHeader, CardTitle, Col, Row, Table } from "react-bootstrap";
+import { Card, CardBody, CardHeader, CardTitle, Col, Row } from "react-bootstrap";
 
 interface Props {
     educations: Education[] | undefined;

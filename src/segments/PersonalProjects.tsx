@@ -1,4 +1,3 @@
-import React from "react";
 import { PersonalProject } from "../models/Portfolio";
 import { Card, CardBody, CardHeader, CardTitle, Table } from "react-bootstrap";
 
@@ -17,7 +16,7 @@ export default function PersonalProjects({ personalProject }: Props) {
             <CardBody>
                 <div>
                     {
-                        personalProject?.map((projects: PersonalProject, index) => {
+                        personalProject?.map((projects: PersonalProject) => {
                             return <div>
                                 <div className="pt-2">
                                     <h6 className="text-black" style={{ textDecorationLine: 'underline' }}>{projects?.projectName}</h6>

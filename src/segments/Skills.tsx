@@ -1,4 +1,3 @@
-import React from "react";
 import { Card, CardBody, CardHeader, CardTitle, Table } from "react-bootstrap";
 import { Skills } from "../models/Portfolio";
 
