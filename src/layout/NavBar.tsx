@@ -1,5 +1,6 @@
 import React, { RefObject } from "react";
 import { Container, Image, Nav, Navbar, NavbarBrand } from "react-bootstrap";
+import profilePhoto from "../public/assets/Ajey-photo.png"
 
 interface Props {
     summaryCard: React.RefObject<HTMLDivElement>;
@@ -21,7 +22,7 @@ export default function NavBar(cards: Props) {
         <Navbar expand="lg" bg="dark" data-bs-theme="dark" className="fixed-top">
             <Container>
                 <Nav className="ml-auto">
-                    <Image src={`../src/public/assets/Ajey-photo.png`} alt="50*50" width="40" height="40" roundedCircle></Image>
+                    <Image src={profilePhoto} alt="50*50" width="40" height="40" roundedCircle></Image>
                     <NavbarBrand className="mx-3">
                         Ajey Pandiyaraj
                     </NavbarBrand>
