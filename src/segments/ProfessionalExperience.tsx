@@ -1,7 +1,7 @@
 import { Experience, ProjectReference } from "../models/Portfolio";
 import { Button, Card, CardBody, CardHeader, CardTitle, Col, Row, Table } from "react-bootstrap";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 interface Props {
     experiences: Experience[] | undefined;

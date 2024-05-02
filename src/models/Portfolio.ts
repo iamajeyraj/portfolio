@@ -36,7 +36,7 @@ export interface ProjectReference{
 export interface PersonalProject {
     projectName: string;
     projectDescription: string[];
-    ProjectLink: string;
+    projectLink: ProjectReference[] | undefined;
 }
 
 export interface Education {

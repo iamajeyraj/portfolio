@@ -60,8 +60,8 @@
       "projectLink":[
         {
           "linkType":"url",
-          "linkName":"USA",
-          "linkDesc":"Disney Byju’s learning App",
+          "linkName":"US/Canada",
+          "linkDesc":"Disney Byju’s learning App - Android",
           "linkUrl":"https://play.google.com/store/apps/details?id=com.tangibleplay.k3us&gl=US"
         },{
           "linkType":"url",
@@ -76,7 +76,7 @@
           "linkType":"url",
           "linkName":"India",
           "linkUrl":"https://apps.apple.com/in/app/disney-byjus-early-learn/id1470583693"
-        } 
+        }
       ]
     },
     {
@@ -88,6 +88,20 @@
         "Developed multiple COPPA complaint KIDS SAFE educational applications and casual games using Unity engine, creating gameplay experience and features like in-app purchases, parental control, rewards system, ads, video player and deployed in Android, iOS, FireOS.",
         "Learned optimisation techniques like object pooling, image nine slicing, sprite atlases, LODs, occlusions, model optimisation and efficient usage GC like avoiding temporary allocations every frame, unused references, string mutations and endorsing value types across application.",
         "Gained insights into 3d model generation pipeline and learned to optimize the models by collaborating with 3d Art team as per project needs."
+      ],
+      "projectLink":[
+        {
+          "linkType":"url",
+          "linkName":"ABC Songs and Nursery Rhymes",
+          "linkDesc":"Kidzooly",
+          "linkUrl":"https://play.google.com/store/apps/details?id=kidzooly.rhymes"
+        },
+        {
+          "linkType":"url",
+          "linkName":"Kids Learning Game",
+          "linkDesc":"Tabby Too",
+          "linkUrl":"https://play.google.com/store/apps/details?id=com.kidzooly.tinytoo"
+        }
       ]
     }
   ],
@@ -98,6 +112,14 @@
         "Developed scalable e-commerce web application using ASP.NET Core 7 MVC application, MS SQL Server for database operations and Entity framework ORM incorporating responsive design principles for optimal user experience across devices.",
         "Engineered a responsive front-end UI with jQuery and Bootstrap classes, Ajax, HTML, and CSS, seamlessly integrating JSON paradigms",
         "Integrated third-party payment gateway Stripe API for secure payment within the session and Crafted dynamic Webforms, Pages, Layouts, and view components to deliver a data-driven business solution, ensuring optimal user experience."
+      ],
+      "projectLink":[
+        {
+          "linkType":"url",
+          "linkName":"Web Application",
+          "linkDesc":".Net Core 6 MVC Bootsrap",
+          "linkUrl":"https://orderbooks-ajey.azurewebsites.net/"
+        }
       ]
     },
     {
@@ -105,6 +127,14 @@
       "projectDescription": [
         "A High fidelity simulation application for Japanese electric scooter maker ‘Okinawa Motors’ showcasing new models describing all the scooter's features with post processing effects.",
         "Ad hoc distribution to entire Tamil Nadu Okinawa dealers on the iPads and Macs for the showrooms"
+      ],
+      "projectLink":[
+        {
+          "linkType":"url",
+          "linkName":"Okinawa Showroom",
+          "linkDesc":"Simulation Application",
+          "linkUrl":"https://orderbooks-ajey.azurewebsites.net/"
+        }
       ]
     }
   ],
