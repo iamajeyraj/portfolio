@@ -20,6 +20,20 @@
         "Automated end-to-end build process of asset bundles by writing shell scripts to update the resource pool without having to update the application saving 60% of time spent on deployments using Jenkins CI/CD and services that adapt to staging and production environment variables.",
         "Implemented CMS backend using ASP.Net core, connect to MS-SQL DB for CRUD ops, created REST APIs as per client needs, created android proxy libs and iOS extern implementation establishing a bridge between Android and iOS platform to access native APIs and 3rd party SDKs.",
         "Architected, designed, and led development of mini game frameworks using Editor Tools for design/art team to build games with zero coding by serializing and customizing unity APIs, tweens, creating a disparate game life-cycle powering communication using events and delegates."
+      ],
+      "projectLink":[
+        {
+          "linkType":"url",
+          "linkName":"Dashboard",
+          "linkDesc":"Cyber Legends",
+          "linkUrl":"https://dashboard.cyberlegends.com/"
+        },
+        {
+          "linkType":"url",
+          "linkName":"Game Client",
+          "linkDesc":"WebGL",
+          "linkUrl":"https://develop.cyberlegends.com/child-signin"
+        }
       ]
     },
     {
@@ -42,6 +56,27 @@
         "Constructed services abstract, decoupled and modular services like network, subscriptions, permissions, localization, user-profile, and session management, DRM ensuring scalability, reusability, overriding for each platform and adapting to staging and production environments.",
         "Promoted as a Senior software engineer and led a team of junior engineers to handle the entire north America region deployments handling code reviews, managing team resources, tech design and spec to product implementation, task timeline analysis and supporting junior developers.",
         "Experienced with a full life cycle of software development- SDLC: use cases, requirements, high-level design, low-level design, implementation and writing unit test cases and adhering to SOLID principles, extremely data-driven and avoiding concrete dependency using abstraction layers. "
+      ],
+      "projectLink":[
+        {
+          "linkType":"url",
+          "linkName":"USA",
+          "linkDesc":"Disney Byju’s learning App",
+          "linkUrl":"https://play.google.com/store/apps/details?id=com.tangibleplay.k3us&gl=US"
+        },{
+          "linkType":"url",
+          "linkName":"India",
+          "linkUrl":"https://play.google.com/store/apps/details?id=com.byjus.k3"
+        },{
+          "linkType":"url",
+          "linkDesc":"iOS",
+          "linkName":"US/Canada",
+          "linkUrl":"https://apps.apple.com/us/app/byjus-learning-disney/id1506362272"
+        },{
+          "linkType":"url",
+          "linkName":"India",
+          "linkUrl":"https://apps.apple.com/in/app/disney-byjus-early-learn/id1470583693"
+        } 
       ]
     },
     {

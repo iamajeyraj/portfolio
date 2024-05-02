@@ -23,7 +23,14 @@ export interface Experience {
     duration: string;
     productName: string;
     projectDescription: string[];
-    projectLink: string;
+    projectLink: ProjectReference[] | undefined;
+}
+
+export interface ProjectReference{
+    linkType:string;
+    linkName:string;
+    linkDesc:string;
+    linkUrl:string;
 }
 
 export interface PersonalProject {

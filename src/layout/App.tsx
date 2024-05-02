@@ -9,7 +9,7 @@ import Summary from '../segments/Summary'
 import ProfessionalExperience from '../segments/ProfessionalExperience'
 import PersonalProjects from '../segments/PersonalProjects'
 import DisplayEducation from '../segments/Education'
-import bg from "../public/assets/portfolio-bg.jpg"
+// import bg from "../public/assets/portfolio-bg.jpg"
 
 function App() {
   const [portfolioData, setData] = useState<Portfolio | undefined>(undefined)
@@ -25,25 +25,25 @@ function App() {
   const personalProject = useRef<HTMLDivElement>(null);
   const displayEducation = useRef<HTMLDivElement>(null);
 
-  const myStyle = {
-    backgroundImage: `url(${bg})`,
-    height: "100vh",
-    backgroundSize: "cover",
-    backgroundRepeat: "repeat",
-    overflow:"scroll"
-  };
+  // const myStyle = {
+  //   backgroundImage: `url(${bg})`,
+  //   height: "100vh",
+  //   backgroundSize: "cover",
+  //   backgroundRepeat: "repeat",
+  //   overflow: "scroll"
+  // };
 
   return (
-    <div style={myStyle}>
+    <div>
       <NavBar summaryCard={summary}
         ProfessionExpCard={professtionalExp}
         skillsCard={skills}
         educationCard={displayEducation}
         PersonalProjectCard={personalProject}
-        certification={undefined}/>
+        certification={undefined} />
       <Container>
         <Row>
-          <Col md={10}>
+          <Col md={10} sm={8} lg={10} className='mx-auto'>
             <div ref={summary} className='pt-5 mt-5'>
               <Summary title={'Summary'} description={portfolioData?.summary} />
             </div>
@@ -59,8 +59,6 @@ function App() {
             <div ref={displayEducation} className='pt-5 pb-5'>
               <DisplayEducation educations={portfolioData?.education} />
             </div>
-          </Col>
-          <Col md={4}>
           </Col>
         </Row>
       </Container>

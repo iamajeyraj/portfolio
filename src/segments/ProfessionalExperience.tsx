@@ -1,12 +1,19 @@
-import { Experience } from "../models/Portfolio";
-import { Card, CardBody, CardHeader, CardTitle, Col, Row, Table } from "react-bootstrap";
-
+import { Experience, ProjectReference } from "../models/Portfolio";
+import { Button, Card, CardBody, CardHeader, CardTitle, Col, Row, Table } from "react-bootstrap";
+import "bootstrap-icons/font/bootstrap-icons.css";
+import { useNavigate } from "react-router-dom";
 
 interface Props {
     experiences: Experience[] | undefined;
 }
 
 export default function ProfessionalExperience({ experiences }: Props) {
+    // let navigate = useNavigate();
+    // const HandleExploreMore = (() => {
+    //     let path = `/portfolio/project`;
+    //     navigate(path);
+    // });
+
     return (
         <>
             <Card className="border-0 shadow">
@@ -17,9 +24,9 @@ export default function ProfessionalExperience({ experiences }: Props) {
                 </CardHeader>
                 <CardBody>
                     {
-                        experiences?.map((expirence: Experience | undefined,index) => {
+                        experiences?.map((expirence: Experience | undefined, index) => {
                             return <div>
-                                { index > 0 && <hr /> }
+                                {index > 0 && <hr />}
                                 <Row>
                                     <Col md={4}>
                                         <div >
@@ -40,13 +47,12 @@ export default function ProfessionalExperience({ experiences }: Props) {
                                 <div className="pt-2">
                                     <h6 style={{ textDecorationLine: 'underline' }}>{expirence?.productName}</h6>
                                 </div>
-
                                 <div>
                                     <Table striped borderless hover>
                                         {
                                             expirence?.projectDescription.map((desc: string | undefined, descIndex: number) => {
                                                 return <div key={descIndex}>
-                                                   
+
                                                     <tr>
                                                         <td>
                                                             {descIndex + 1}.{desc}
@@ -56,6 +62,23 @@ export default function ProfessionalExperience({ experiences }: Props) {
                                             })
                                         }
                                     </Table>
+                                    <Row>
+                                            <h5>Project Link:</h5>
+                                        <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+                                            {expirence?.projectLink?.map((projectRef: ProjectReference | undefined, index: number) => (
+                                                <div key={index} style={{ marginRight: '10px', marginBottom: '10px' }}>
+                                                    {projectRef && (
+                                                        <>
+                                                            {projectRef.linkDesc}{' '}
+                                                            <Button target="bank" href={projectRef.linkUrl} variant="success" style={{ marginLeft: '0px' }}>
+                                                                {projectRef.linkName} <i className="bi bi-file-play-fill"></i>
+                                                            </Button>
+                                                        </>
+                                                    )}
+                                                </div>
+                                            ))}
+                                        </div>
+                                    </Row>
                                 </div>
                             </div>
                         })
