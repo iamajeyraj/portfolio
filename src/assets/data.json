@@ -1,13 +1,13 @@
 {
   "summary": "Experienced Senior Software Developer with 8 years of expertise in gaming and software development, adept in C#, Unity3D, ASP.NET Core, and cloud technologies. Demonstrated success in optimizing performance, automating processes, and delivering scalable solutions. Proven ability to lead teams and drive projects from conception to deployment, with a strong commitment to continuous learning and technological advancement.",
   "skills": {
-    "programming": "C#, SQL, swift",
-    "software": "Unity3d, VS Code, XCode",
-    "frameworks": "ASP .NET 6+ Web API, MVC, Entity framework, React, Typescript, Bootstrap",
-    "database": "Microsoft SQL server 16+, PostgreSQL, SQLite, Azure Cloud Services",
-    "designPatterns": "Dependency Injection, Observables, MVVM, MVC, Builders and factory",
-    "productivityTools": "Addressables/AssetBundle, Uni-Rx, StrangeIoC, Zenject, Photon, XR-Interaction toolkit, Docker",
-    "extra": "Live-Ops, Game Play, Optimization, Tools, Native APIs, Services, CMS backend, Unit Tests, Git, CI/CD, SQLite, REST, Jenkins"
+    "programming": "C#, SQL, Swift, Typescript, HTML5, CSS3",
+    "software": "Unity3d, Visual Studio, XCode, VS-Code",
+    "frameworks": "ASP.Net Core 6 Web API, React",
+    "database": "Microsoft SQL server 16+, SQLite, Azure Cloud Services",
+    "designPatterns": "Dependency Injection, Observables, MVVM, MVC",
+    "productivityTools": "Addressable/Asset Bundles, Uni-Rx, Strange IoC, Photon, DoTween, Docker, Odin",
+    "extra": "live-ops, game play, optimizations, tools, services, backend APIs, Unit Tests, Git, CI/CD, SQLite, REST, Jenkins."
   },
   "professionalExperience": [
     {
@@ -16,18 +16,12 @@
       "duration": "Jun 2023 – Apr 2024",
       "productName": "2D Open World Game & Framework Engine (WebGL|Android|iOS):",
       "projectDescription": [
-        "Developed 2D open world game with economy, quests engine, NPC AI, character customizations, microservices, runtime asset management, user session management, CMS backend, database and optimizing rendering pipeline, memory cache, and build size resulting in 40% perf gain.",
-        "Automated end-to-end build process of asset bundles by writing shell scripts to update the resource pool without having to update the application saving 60% of time spent on deployments using Jenkins CI/CD and services that adapt to staging and production environment variables.",
-        "Implemented CMS backend using ASP.Net core, connect to MS-SQL DB for CRUD ops, created REST APIs as per client needs, created android proxy libs and iOS extern implementation establishing a bridge between Android and iOS platform to access native APIs and 3rd party SDKs.",
-        "Architected, designed, and led development of mini game frameworks using Editor Tools for design/art team to build games with zero coding by serializing and customizing unity APIs, tweens, creating a disparate game life-cycle powering communication using events and delegates."
+        "Involved in creation of open world game game play, quests engine, NPC AI, microservices, economy, inventory management, runtime asset management, user session and optimizing rendering pipeline, memory, resulting in 45% performance gain.",
+        "Crafted intricate run-time asset management system with asset bundles that dynamically updates the game elements reducing build size by 90% that are mapped by application version built for different mobile platforms.",
+        "Spearheaded development of game frameworks by building custom Editor Tools for design/art team to build games with 0% coding involved that has sperate life cycle powered by the game’s state machine.",
+        "Implemented multiple services such as network, subscriptions, asset management, users, and profiles, inventory, quest, CMS backend and client which are decoupled and work independently using abstraction layers."
       ],
       "projectLink":[
-        {
-          "linkType":"url",
-          "linkName":"Dashboard",
-          "linkDesc":"Cyber Legends",
-          "linkUrl":"https://dashboard.cyberlegends.com/"
-        },
         {
           "linkType":"url",
           "linkName":"Game Client",
@@ -42,8 +36,8 @@
       "duration": "Mar 2023 – Jun 2023",
       "productName": "Eli-Lilly Drug Showcase & Interactive Presentation (Windows):",
       "projectDescription": [
-        "Orchestrated an interactive 3d simulation of a real-world medical scenario using Unity engine that was presented in an FDA congress meeting for drug approval, protagonist is interactable via Kinect motion controller channeling cinematic gameplay experience via post-processing effects.",
-        "Deployed path navigation using Unity NavMesh AI agent algorithm which uses A* algorithm based on Dijkstra’s technique to find the shortest path between the nodes, well documented tech design and character state machine, level setup, props, lighting, presentations, and optimizations."
+        "Created an interactive 3d game using Unity engine and C# that was presented in an FDA congress, where user can interact with the game using movements using Kinect motion controller, which also features interactive presentation.",
+        "Deployed custom path navigation which uses A* algorithm based on Dijkstra’s technique to find the shortest path between the nodes, well documented tech design and character state machine, level setup, props, lighting, presentations, and optimizations."
       ]
     },
     {
@@ -52,10 +46,10 @@
       "duration": "Feb 2017 – Mar 2023",
       "productName": "Disney+ Byju’s Early Learn COPPA (Android|iOS|FireOS):",
       "projectDescription": [
-        "Delivered a supercharged, gamified and highly scalable educational application by creating a sophisticated architecture incorporating MVCS Dependency Injection using Strange IoC, Observers for responsive UI design for async, concurrency, multi-threading, and distributed tasks.",
-        "Constructed services abstract, decoupled and modular services like network, subscriptions, permissions, localization, user-profile, and session management, DRM ensuring scalability, reusability, overriding for each platform and adapting to staging and production environments.",
-        "Promoted as a Senior software engineer and led a team of junior engineers to handle the entire north America region deployments handling code reviews, managing team resources, tech design and spec to product implementation, task timeline analysis and supporting junior developers.",
-        "Experienced with a full life cycle of software development- SDLC: use cases, requirements, high-level design, low-level design, implementation and writing unit test cases and adhering to SOLID principles, extremely data-driven and avoiding concrete dependency using abstraction layers. "
+        "Delivered a highly scalable educational application incorporating Dependency Injection architecture using Strange IoC, Observers for responsive UI design for async, concurrency, multi-threading, and distributed tasks.",
+        "Promoted as a Senior software engineer and led a team of junior engineers to handle the entire north America region handling code reviews, managing team resources, tech design and spec to product implementation, task timeline analysis",
+        "Contributed to game play feature involving implementation of complex algorithm like cannon ball, path finding, AI state machine and services that are highly scalable and adapts to staging and production environments.",
+        "Experienced with a full life cycle of software development- SDLC: use cases, requirements, high-level design, low-level design, writing unit test cases and adhering to SOLID principles."
       ],
       "projectLink":[
         {
