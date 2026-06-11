@@ -28,10 +28,10 @@
       ],
       "projectLink": [
         {
-          "linkType": "text",
-          "linkName": "Private Demo",
-          "linkDesc": "Dashboard access can be shown during interview.",
-          "linkUrl": ""
+          "linkType": "url",
+          "linkName": "RSC Cloud Dashboard",
+          "linkDesc": "Username and password can be provided during the interview.",
+          "linkUrl": "https://rsc.acceoretail.com/apps/rsc_cloud/home?realm=testmel&clientId=rsc_cloud"
         }
       ]
     },
