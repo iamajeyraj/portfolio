@@ -70,9 +70,11 @@ export default function ProfessionalExperience({ experiences }: Props) {
                                                     {projectRef && (
                                                         <>
                                                             {projectRef.linkDesc}{' '}
-                                                            <Button target="bank" href={projectRef.linkUrl} variant="success" style={{ marginLeft: '0px' }}>
-                                                                {projectRef.linkName} <i className="bi bi-file-play-fill"></i>
-                                                            </Button>
+                                                            {projectRef.linkUrl && (
+                                                                <Button target="bank" href={projectRef.linkUrl} variant="success" style={{ marginLeft: '0px' }}>
+                                                                    {projectRef.linkName} <i className="bi bi-file-play-fill"></i>
+                                                                </Button>
+                                                            )}
                                                         </>
                                                     )}
                                                 </div>
