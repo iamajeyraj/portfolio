@@ -1,13 +1,13 @@
 {
-  "summary": "Senior Software Engineer with 10+ years of experience building scalable SaaS platforms, distributed systems, cloud-native applications, and event-driven architectures. Proven track record designing multi-tenant systems, modernizing legacy platforms, and delivering resilient solutions across retail, education, and enterprise domains. Based in Ontario, Canada.",
+  "summary": "Senior Software Engineer specializing in .NET Core, distributed systems, and cloud-native architecture. Proven experience designing multi-tenant SaaS platforms, event-driven pipelines, and resilient DevOps workflows, with a strong focus on scalability, reliability, and system design. Based in Ontario, Canada.",
   "skills": {
     "programming": "C#, SQL, TypeScript, Linux commands, HTML5+, CSS3+",
-    "software": "ASP.NET Core, Windows/Background Services, React, Bootstrap",
-    "frameworks": "Docker/Podman, Self-hosting, AWS, Kubernetes, CI/CD, Docker Registry, Terraform, Grafana",
+    "software": "ASP.NET Core Web API & MVC, React, Windows Services, Background Services, Bootstrap",
+    "frameworks": "Docker/Podman, Self-hosting, AWS, Kubernetes, CI/CD, Docker Registry, Grafana",
     "database": "MS SQL Server 16+, PostgreSQL, MongoDB",
     "designPatterns": "Microservices, Clean Architecture, CQRS, Service-Oriented Architecture (SOA), Domain-Driven Design, Event Sourcing",
     "productivityTools": "Keycloak, RabbitMQ, NATS, Redis, Nginx, SEQ, TLS/Let's Encrypt, Axios, Redux, Entity Framework, Git, GitHub Actions",
-    "extra": ".NET Core SaaS platforms, event-driven architecture, multi-tenant systems, legacy modernization, cloud-to-on-prem integrations, observability, resilience, and DevOps automation"
+    "extra": ".NET Core SaaS platforms, event-driven pipelines, multi-tenant systems, legacy modernization, cloud-to-on-prem integrations, observability, resilience, AWS managed infrastructure, and DevOps automation"
   },
   "professionalExperience": [
     {
@@ -17,14 +17,14 @@
       "productName": "Retail Solutions Central - RSC (.NET Core 9 | React | DevOps):",
       "projectDescription": [
         "Architected and developed a cloud-native retail platform by modernizing a legacy on-prem system into a scalable multi-tenant SaaS solution using .NET Core, React, and PostgreSQL.",
-        "Designed an event-driven data pipeline to stream encrypted JSON sales transactions from on-prem systems using Windows services, Polly retry/circuit breaker policies, and RabbitMQ with DLQ for reliable processing.",
+        "Designed an event-driven data pipeline to stream sales transaction data from on-prem systems using encrypted JSON, Windows services, Polly retry/circuit breaker policies, and RabbitMQ with DLQ for reliable processing.",
         "Built a distributed processing system with sequential queue-based execution, dynamic tenant resolution, and runtime migrations to ensure data consistency and fault-tolerant ingestion.",
         "Implemented multi-tenant architecture supporting database-per-tenant and schema-based isolation, enabling flexible scaling based on subscription tiers.",
         "Developed a React cloud dashboard and retail management system using TypeScript, Redux, EN/FR localization, and Keycloak OAuth2 authentication with realm-based tenancy.",
         "Enabled hybrid cloud-to-on-prem communication using NATS messaging for secure real-time interaction between cloud services and local client systems.",
-        "Containerized platform services using Podman/Docker and deployed on Kubernetes with auto-scaling processing services based on queue load.",
-        "Automated CI/CD pipelines using self-hosted GitHub Actions and a private Docker registry with environment-specific versioned deployments, rollback capability, and TLS-secured infrastructure.",
-        "Implemented observability and resilience strategies using SEQ logging, correlation IDs, circuit breakers, and controlled connection handling to maintain stability under failures."
+        "Containerized platform services using Podman/Docker and deployed them on a self-hosted Kubernetes cluster running on Linux VMs, enabling orchestration, workload distribution, and horizontal scaling of backend and queue-processing services.",
+        "Automated CI/CD pipelines using self-hosted GitHub Actions runners and a private Docker registry, enabling versioned deployments, rollback capability, and secure TLS-enabled infrastructure across multiple environments.",
+        "Implemented observability and resilience strategies using SEQ, Grafana, correlation IDs, circuit breakers, and controlled connection handling, improving traceability and maintaining system stability during service failures."
       ],
       "projectLink": [
         {
@@ -32,6 +32,12 @@
           "linkName": "RSC Cloud Dashboard",
           "linkDesc": "Username and password can be provided during the interview.",
           "linkUrl": "https://rsc.acceoretail.com/apps/rsc_cloud/home?realm=testmel&clientId=rsc_cloud"
+        },
+        {
+          "linkType": "image",
+          "linkName": "RSC Cloud Architecture",
+          "linkDesc": "View the hybrid cloud architecture diagram.",
+          "linkUrl": "/portfolio/assets/RSCArchitecture.png"
         }
       ]
     },
@@ -41,10 +47,10 @@
       "duration": "Mar 2023 - Apr 2024",
       "productName": "Cyber Legends (C# | .NET Core 6 | React):",
       "projectDescription": [
-        "Engineered a .NET Core CMS and backend APIs using event-driven patterns and Rx.NET to support scalable concurrent processing and fault-tolerant behavior.",
-        "Built secure REST APIs for authentication, payments, and data synchronization using OAuth2, Entity Framework, and MS SQL Server across web and mobile clients.",
-        "Developed a responsive React SPA with Redux for centralized state management, improving frontend performance and API-driven data interactions.",
-        "Automated CI/CD pipelines using Jenkins to streamline build, testing, and deployment workflows, reducing manual release effort and improving reliability by approximately 50%."
+        "Engineered a .NET Core CMS and backend APIs using event-driven patterns, async/await, Tasks, and Semaphores to enable scalable concurrent processing, deploying containerized workloads on Amazon ECS to ensure high responsiveness and fault-tolerant system behavior.",
+        "Built secure and scalable REST APIs supporting authentication (OAuth2), payments and subscriptions, and data synchronization using Entity Framework and MS SQL Server, leveraging Amazon RDS and AWS managed infrastructure to deliver reliable web and mobile experiences.",
+        "Developed a responsive React SPA with Redux for centralized state management and deployed front-end assets through Amazon S3 and Amazon CloudFront, improving performance, user experience, and API-driven interactions.",
+        "Automated CI/CD pipelines to streamline build, testing, and deployment workflows, reducing manual release effort and improving release reliability."
       ],
       "projectLink": [
         {
@@ -61,10 +67,10 @@
       "duration": "Feb 2017 - Mar 2023",
       "productName": "Disney BYJU'S Early Learn App (C# | .NET Core 6 | React):",
       "projectDescription": [
-        "Developed high-scale .NET Core APIs handling 10,000+ requests per minute for subscriptions, session management, and CDN-based content delivery.",
-        "Designed a message-driven microservices architecture using RabbitMQ and MongoDB to enable asynchronous communication, scalability, fault tolerance, and service decoupling.",
-        "Optimized system performance using Redis caching and parallel processing, reducing server load by approximately 40% and improving response times across distributed services.",
-        "Led engineering initiatives including system design, code reviews, and North America deployments, improving delivery quality, team productivity, and business alignment."
+        "Developed high-scale .NET Core APIs handling 10,000+ requests per minute, supporting subscriptions, session management, and CDN-based content delivery while maintaining availability and performance under heavy traffic.",
+        "Designed and developed a microservices-based backend architecture using .NET Core, RabbitMQ, and Kubernetes, enabling reliable service-to-service communication, asynchronous processing, scalable deployments, and improved fault isolation.",
+        "Optimized system performance using Redis caching, parallel processing, and API-level improvements, reducing server load by approximately 40% and improving response times across distributed services.",
+        "Led engineering initiatives including system design, code reviews, production releases, and North America deployments, improving delivery quality, team productivity, and business alignment."
       ],
       "projectLink": [
         {

@@ -71,8 +71,9 @@ export default function ProfessionalExperience({ experiences }: Props) {
                                                         <>
                                                             {projectRef.linkDesc}{' '}
                                                             {projectRef.linkUrl && (
-                                                                <Button target="bank" href={projectRef.linkUrl} variant="success" style={{ marginLeft: '0px' }}>
-                                                                    {projectRef.linkName} <i className="bi bi-file-play-fill"></i>
+                                                                <Button target="_blank" rel="noreferrer" href={projectRef.linkUrl} variant="success" style={{ marginLeft: '0px' }}>
+                                                                    {projectRef.linkName}{' '}
+                                                                    <i className={projectRef.linkType === 'image' ? 'bi bi-diagram-3-fill' : 'bi bi-box-arrow-up-right'}></i>
                                                                 </Button>
                                                             )}
                                                         </>
