@@ -2,29 +2,29 @@
   "summary": "Senior Software Engineer specializing in .NET Core, distributed systems, and cloud-native architecture. Proven experience designing multi-tenant SaaS platforms, event-driven pipelines, and resilient DevOps workflows, with a strong focus on scalability, reliability, and system design. Based in Ontario, Canada.",
   "skills": {
     "programming": "C#, SQL, TypeScript, Linux commands, HTML5+, CSS3+",
-    "software": "ASP.NET Core Web API & MVC, React, Windows Services, Background Services, Bootstrap",
-    "frameworks": "Docker/Podman, Self-hosting, AWS, Kubernetes, CI/CD, Docker Registry, Grafana",
-    "database": "MS SQL Server 16+, PostgreSQL, MongoDB",
+    "software": "ASP.NET Core Web API & MVC, SPA, Windows Services, Background Services, Bootstrap",
+    "frameworks": "Docker/Podman, AWS, Amazon EKS, Amazon RDS, Amazon MQ, Amazon ECR, GitHub Actions, CI/CD, Grafana",
+    "database": "MS SQL Server 16+, PostgreSQL, Amazon RDS for PostgreSQL, MongoDB",
     "designPatterns": "Microservices, Clean Architecture, CQRS, Service-Oriented Architecture (SOA), Domain-Driven Design, Event Sourcing",
-    "productivityTools": "Keycloak, RabbitMQ, NATS, Redis, Nginx, SEQ, TLS/Let's Encrypt, Axios, Redux, Entity Framework, Git, GitHub Actions",
-    "extra": ".NET Core SaaS platforms, event-driven pipelines, multi-tenant systems, legacy modernization, cloud-to-on-prem integrations, observability, resilience, AWS managed infrastructure, and DevOps automation"
+    "productivityTools": "Keycloak, RabbitMQ, NATS, Redis, Nginx, SEQ, Amazon CloudWatch, TLS, Axios, Redux, Entity Framework, Git, GitHub Actions",
+    "extra": ".NET Core SaaS platforms, event-driven pipelines, multi-tenant systems, legacy modernization, hybrid cloud-to-store integrations, observability, resilience, AWS managed infrastructure, and DevOps automation"
   },
   "professionalExperience": [
     {
       "jobTitle": "Senior Software Developer - R&D",
       "companyName": "ACCEO Solutions Inc - Montreal, QC",
       "duration": "Aug 2024 - Jun 2026",
-      "productName": "Retail Solutions Central - RSC (.NET Core 9 | React | DevOps):",
+      "productName": "Retail Solutions Central - RSC (.NET Core 9 | SPA | DevOps):",
       "projectDescription": [
-        "Architected and developed a cloud-native retail platform by modernizing a legacy on-prem system into a scalable multi-tenant SaaS solution using .NET Core, React, and PostgreSQL.",
-        "Designed an event-driven data pipeline to stream sales transaction data from on-prem systems using encrypted JSON, Windows services, Polly retry/circuit breaker policies, and RabbitMQ with DLQ for reliable processing.",
-        "Built a distributed processing system with sequential queue-based execution, dynamic tenant resolution, and runtime migrations to ensure data consistency and fault-tolerant ingestion.",
-        "Implemented multi-tenant architecture supporting database-per-tenant and schema-based isolation, enabling flexible scaling based on subscription tiers.",
-        "Developed a React cloud dashboard and retail management system using TypeScript, Redux, EN/FR localization, and Keycloak OAuth2 authentication with realm-based tenancy.",
-        "Enabled hybrid cloud-to-on-prem communication using NATS messaging for secure real-time interaction between cloud services and local client systems.",
-        "Containerized platform services using Podman/Docker and deployed them on a self-hosted Kubernetes cluster running on Linux VMs, enabling orchestration, workload distribution, and horizontal scaling of backend and queue-processing services.",
-        "Automated CI/CD pipelines using self-hosted GitHub Actions runners and a private Docker registry, enabling versioned deployments, rollback capability, and secure TLS-enabled infrastructure across multiple environments.",
-        "Implemented observability and resilience strategies using SEQ, Grafana, correlation IDs, circuit breakers, and controlled connection handling, improving traceability and maintaining system stability during service failures."
+        "Architected and developed a cloud-native retail platform by modernizing a legacy on-prem retail system into a scalable, event-driven, multi-tenant SaaS solution using .NET Core, SPA architecture, AWS, PostgreSQL, RabbitMQ, NATS, and Keycloak.",
+        "Designed an event-driven data ingestion pipeline to stream encrypted sales transactions from client store systems using Windows Services, Polly retry/circuit breaker policies, and Amazon MQ for RabbitMQ with DLQ, processing 1.3M+ transactions per minute.",
+        "Built a distributed background processing system with queue-based execution, dynamic tenant resolution, runtime migrations, and concurrent processing to ensure data consistency, fault tolerance, and efficient high-volume ingestion.",
+        "Implemented a multi-tenant architecture using Amazon RDS for PostgreSQL with database-per-tenant and shared schema isolation, enabling tier-based scaling that contributed to a 15% increase in revenue and a 23% reduction in infrastructure costs.",
+        "Developed a modern SPA cloud dashboard and retail management system with EN/FR localization and secure OAuth2 authentication using Keycloak, realm-based tenancy, ASP.NET Core middleware pipelines, and policy-based token validation.",
+        "Enabled hybrid cloud-to-store communication using NATS messaging, allowing secure real-time inventory and order management from anywhere while reducing on-site operational effort by approximately 40%.",
+        "Containerized platform services using Docker/Podman and deployed workloads on Amazon EKS, leveraging Kubernetes DNS/CoreDNS, service discovery, and ingress routing to enable reliable service communication, workload distribution, and horizontal scaling of backend APIs and queue-processing services.",
+        "Automated CI/CD pipelines using GitHub Actions, Amazon Elastic Container Registry, environment-based deployment workflows, versioned releases, rollback capability, and TLS-secured infrastructure across multiple environments.",
+        "Implemented observability and resilience strategies using Amazon CloudWatch, Grafana, SEQ, correlation IDs, circuit breakers, and controlled connection handling, improving traceability and maintaining system stability during service failures."
       ],
       "projectLink": [
         {
